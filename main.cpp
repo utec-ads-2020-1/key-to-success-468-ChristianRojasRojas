@@ -11,8 +11,7 @@ vector<char> decodificacion(){
     map<char,unsigned int> palll2;
     map<char,char> swap;
     string palabra1, palabra2;
-    cin >> palabra1;
-    cin >> palabra2;
+    cin >> palabra1 >> palabra2;
     for (char x : palabra1){
         palll1[x]++;
     }
